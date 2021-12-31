@@ -1,0 +1,31 @@
+在你的项目中右击—>git bash here
+git init
+git add . //添加所有文件
+git commit -m “你本次做了哪些事”
+//如果是第一次使用git，需要配置一下个人信息
+git config --global user.email “11@qq.com”
+git config --global user.name “名字”
+5、连接远程仓库
+git remote add origin https://github.com/lirupeng/aaa.git
+git remote add [仓库别名] 仓库地址
+6、推送到远程仓库
+git push -u origin master
+git push -u [仓库别名] master
+-u: 在以后提交的时候 不用写完整命令 只需写 git push
+询问你的github账号和密码
+
+7、作为一名新员工，down项目
+git clone [仓库别名] https://github.com/lirupeng/aaa.git
+8、下班
+git add .
+git commit -m “你今天做了哪些是事”
+git pull // 如果一旦发生变化，那么就需要重新add commit pull
+git push
+9、上班 git pull
+
+老师的笔记在git上。建立一个文件夹专门放你所要的资料
+右击 选中Git Bash Here
+第一次安装直接 输入：
+git clone https://gitee.com/qqcloud/bj-web-0810.git
+以后的下载 要在跟目录的下级 C:\Users\Administrator\Desktop\第五阶段（2）\bj-web-0810
+git pull
